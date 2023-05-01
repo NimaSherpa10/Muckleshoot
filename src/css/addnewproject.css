@@ -1,0 +1,58 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 40px 20px 20px; /* add right padding to make space for the button */
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px; /* adjust top and right values as needed */
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  color: #000;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+input[type="text"] {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px rgba(8, 8, 7, 0.924);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0069ba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005f78;
+}

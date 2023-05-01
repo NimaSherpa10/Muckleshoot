@@ -1,0 +1,26 @@
+.addButton {
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #0069ba;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #005f78;
+  }
+  
+  .suppliercontent {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .selectedproject {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+    overflow-y: scroll;
+  }

@@ -1,0 +1,40 @@
+.selected-parts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.autopart {
+  border: 1px solid #1918184d;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .autopart {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .autopart {
+    width: 100%;
+  }
+}
+.alert {
+  justify-content: flex-end;
+  float: right;
+  font-size: 30px;
+  color: red;
+}
+
+h2 {
+  font-size: 29px;
+
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}

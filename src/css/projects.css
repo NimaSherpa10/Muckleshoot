@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0px 0px 15px rgba(184, 181, 181, 0.728);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  width: auto;
+  height: 200px;
+}
+.info,
+.Issues,
+.delivarydate
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.396);
+  padding: 20px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+.image {
+  margin: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.198);
+  background-color: white;
+  cursor: pointer;
+  border-radius:10px ;
+}
+button:hover {
+  background-color: rgb(7, 7, 58);
+  color: white;
+}
+.info {
+  margin-top: 30px;
+  border: none;
+}
+.info li {
+  padding-top: 20px;
+}
+
+.Issues h1,.delivarydate h1 {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.alert h1{
+  color:red;
+}
