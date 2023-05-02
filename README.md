@@ -1,3 +1,7 @@
+#to use this file clone it to your folder called frontend
+cd to src and then npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
